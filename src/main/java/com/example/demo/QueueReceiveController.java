@@ -27,7 +27,7 @@ public class QueueReceiveController {
 	{
 		RestTemplate restTemplate = new RestTemplate();
 	     
-	    final String url = "http://wstoazure-git-udari-dev.apps.sandbox.x8i5.p1.openshiftapps.com/sendmessagetoazure";
+	    final String url = "http://sendmessagetoazure-git-akchakraborty7-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/sendmessagetoazure";
 	    URI uri = new URI(url);
 	     
 	    Message azuremesssage = new Message();
@@ -36,6 +36,3 @@ public class QueueReceiveController {
 	    
 	    System.out.println("Sent a message to IBM MQ: " );        
 	}
-
-
-}
