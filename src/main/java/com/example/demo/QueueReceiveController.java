@@ -36,3 +36,4 @@ public class QueueReceiveController {
 	    
 	    System.out.println("Sent a message to IBM MQ: " );        
 	}
+}
