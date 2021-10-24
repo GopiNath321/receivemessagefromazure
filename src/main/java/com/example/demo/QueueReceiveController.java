@@ -27,7 +27,7 @@ public class QueueReceiveController {
 	{
 		RestTemplate restTemplate = new RestTemplate();
 	     
-	    final String url = "http://sendmessagetoazure-git-akchakraborty7-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/sendmessagetoazure";
+	    final String url = "http://sendmessagetoibm-git-gopinath-m-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/sendmessagetoibmmq";
 	    URI uri = new URI(url);
 	     
 	    Message azuremesssage = new Message();
